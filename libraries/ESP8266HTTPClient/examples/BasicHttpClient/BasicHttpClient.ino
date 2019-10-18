@@ -47,6 +47,7 @@ void loop() {
     Serial.print("[HTTP] begin...\n");
     if (http.begin(client, "http://jigsaw.w3.org/HTTP/connection.html")) {  // HTTP
 
+      //// HOW DO YOU GAT A SECOND PAGE ???
 
       Serial.print("[HTTP] GET...\n");
       // start connection and send HTTP header
